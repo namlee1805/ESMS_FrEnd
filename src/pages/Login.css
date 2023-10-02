@@ -1,0 +1,210 @@
+.span {
+  font-size: 12px;
+}
+.login1,
+.please-enter-your {
+  position: absolute;
+  left: 1211px;
+  display: inline-block;
+}
+.login1 {
+  top: 191px;
+  color: var(--color-black);
+  width: 139px;
+  height: 52px;
+  font-size: 50px;
+}
+.please-enter-your {
+  top: 262px;
+  width: 382px;
+  height: 19px;
+}
+.password-input,
+.username-input {
+  border: 1px solid var(--color-lightgray);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 331px;
+  left: 1211px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 489px;
+  height: 60px;
+}
+.password-input {
+  top: 414px;
+}
+.remember-username {
+  top: 505px;
+  left: 1249px;
+  width: 163px;
+  height: 19px;
+}
+.forgot-username-or,
+.log-in,
+.remember-username {
+  position: absolute;
+  display: inline-block;
+}
+.forgot-username-or {
+  text-decoration: none;
+  top: 504px;
+  left: 1479px;
+  font-weight: 500;
+  color: var(--color-coral);
+  text-align: right;
+  width: 170px;
+  height: 19px;
+}
+.forgot-username-or:hover {
+  color: rgba(245, 125, 81, 0.74);
+}
+.log-in {
+  top: 21px;
+  left: 212px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  width: 66px;
+  height: 18px;
+}
+.login-button {
+  cursor: pointer;
+  border: 1px solid var(--color-lightgray);
+  padding: 0;
+  background-color: var(--color-coral);
+  position: absolute;
+  top: 596px;
+  left: 1211px;
+  border-radius: var(--br-31xl);
+  box-shadow: 0 15px 30px -10px rgba(245, 124, 81, 0.18);
+  box-sizing: border-box;
+  width: 489px;
+  height: 60px;
+}
+.login-button:hover {
+  background-color: rgba(245, 125, 81, 0.47);
+}
+.login-button:active {
+  background-color: rgba(245, 125, 81, 0.44);
+}
+.login-with-google {
+  position: absolute;
+  top: 19px;
+  left: 172px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 202px;
+  height: 21px;
+}
+.clip-path-group {
+  position: absolute;
+  height: 52.84%;
+  width: 6.81%;
+  top: 23.33%;
+  right: 69.67%;
+  bottom: 23.83%;
+  left: 23.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.login-google {
+  cursor: pointer;
+  border: 1px solid var(--color-lightgray);
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 792px;
+  left: 1211px;
+  border-radius: var(--br-31xl);
+  box-shadow: 0 15px 30px -10px rgba(245, 124, 81, 0.18);
+  box-sizing: border-box;
+  width: 489px;
+  height: 60px;
+}
+.login-google:hover {
+  border: 1px solid rgba(133, 111, 111, 0.64);
+  box-sizing: border-box;
+}
+.login-google:active {
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+.check-box,
+.login-with-your {
+  position: absolute;
+  top: 503px;
+  left: 1211px;
+  width: 23px;
+  height: 23px;
+}
+.login-with-your {
+  top: 0;
+  left: 144px;
+  display: inline-block;
+  width: 202px;
+  height: 21px;
+}
+.account-on-child,
+.account-on-item {
+  position: absolute;
+  top: 10.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 123px;
+  height: 1px;
+  opacity: 0.5;
+}
+.account-on-item {
+  left: 366.5px;
+}
+.account-on {
+  position: absolute;
+  top: 744px;
+  left: 1211px;
+  width: 489px;
+  height: 21px;
+}
+.logo-long-2-icon,
+.n-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1152px;
+  height: 1117px;
+  object-fit: cover;
+}
+.logo-long-2-icon {
+  top: 22px;
+  left: 166.44px;
+  width: 361.63px;
+  height: 142px;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1152px;
+  height: 1117px;
+}
+.login {
+  position: relative;
+  border-radius: 12px;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray);
+  font-family: var(--font-inter);
+}
