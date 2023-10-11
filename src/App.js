@@ -4,7 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import LoginPage from "./pages/Login";
+import Login from "./pages/Login";
 import { useEffect } from "react";
 
 function App() {
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/loginPage" element={<LoginPage />} />
+      <Route path="/" element={<Login />} />
     </Routes>
   );
 }
