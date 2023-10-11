@@ -7,7 +7,8 @@ const Login = () => {
   }, []);
 
   const onLoginGoogleClick = useCallback(() => {
-    window.location.href = "localhost:8888/loginStudents";
+    // window.location.href = "localhost:8888/loginStudents;
+    window.open("localhost:8888/loginStudents");
   }, []);
 
   return (
